@@ -10,7 +10,7 @@ ARG MNEMONIC=\
 "jar deny prosper gasp flush glass core corn alarm treat leg smart"
 ARG NUM_WALLETS=15
 
-FROM alpine:3.10
+FROM alpine:3.14
 
 # Alpine dependencies and Non-root user
 # Check dependencies
@@ -49,7 +49,7 @@ RUN mkdir db && ganache-cli --db db -e 100000 \
 
 
 # Minimize image
-FROM alpine:3.10
+FROM alpine:3.14
 
 RUN apk add --no-cache nodejs
 
