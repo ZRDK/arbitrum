@@ -42,7 +42,7 @@
     "@nomiclabs/hardhat-ethers": "^2.0.2",
     "@types/prompts": "^2.0.14",
     "dotenv": "^10.0.0",
-    "ethers": "^5.1.0",
+    "ethers": "^6.0.0",
     "prompts": "^2.4.2"
   },
   "resolutions": {
