@@ -47,7 +47,7 @@
     "@types/node": "^14.0.13",
     "dotenv": "^10.0.0",
     "ethers": "^5.4.0",
-    "hardhat-deploy": "^0.9.1",
+    "hardhat-deploy": "^1.0.3",
     "typescript": "^4.2.2"
   },
   "devDependencies": {
